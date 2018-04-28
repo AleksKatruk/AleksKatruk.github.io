@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testcase fot HTML Builder</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+<div class="container">
+    <div class="content-wrapper wrapper">
+        <header>
+            <div class="logo">
+                    <a href="."><img src="img/logo.png" alt=""></a>
+            </div>
+            <div class="header">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#">Home</a></li>
+                        <li class="menu__item"><a href="#">Sports</a></li>
+                        <li class="menu__item"><a href="#">Casino</a></li>
+                        <li class="menu__item menu__item_dropdown"><a class="icon icon__menu icon__menu_down" href="#">Games</a>
+                            <ul class="menu-nested">
+                                <li><a href="#">Mega Moolah</a></li>
+                                <li><a href="#">The curse of the black Pearl</a></li>
+                                <li><a href="#">Super slots attack</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="translate-languages">
+                    <ul class="languages">
+                        <li><a href="#" class="languages__item languages__item_en active"></a></li>
+                        <li><a href="#" class="languages__item languages__item_fr"></a></li>
+                        <li><a href="#" class="languages__item languages__item_de"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section class="main-content">
+            <div class="column column__left">
+                <div class="main-content__box">
+                    <h1>Page title</h1>
+                    <div class="text-box">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        </p>
+
+                        <p>
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                        </p>
+                    </div>
+                    <div id="build" class="build-table">
+                        <div id="display-table" class="table">
+                            <div id="display-table__block" class="display-table__block-remove">Drawing the table...</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="column column__right">
+                <div class="main-content__box main-content__box_right">
+                    <div class="accordion">
+                        <div class="accordion__item">
+                            <div class="accordion__button active-icon">Click to close</div>
+                            <div class="accordion__content show">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__button">Click to open</div>
+                            <div class="accordion__content">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div class="accordion__button">Click to open</div>
+                            <div class="accordion__content">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indus book.  desktop publishing software like Aldus PageMaker including versions of Lorem ageMaker including versions of Lorem Ipsum...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+    <footer class="wrapper">
+        <div class="footer">
+            <div class="footer__copyrights">
+                2003 - 2011 © Copyright 10Bet.com Ltd. All rights reserved.
+            </div>
+            <ul class="footer__nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Responsible gaming</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</div>
+<script src="js/content.js"></script>
+
+</body>
